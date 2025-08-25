@@ -245,5 +245,3 @@
     scroller.addEventListener('mouseenter', ()=> clearInterval(auto));
     scroller.addEventListener('mouseleave', ()=> auto = setInterval(()=>slideBy(1), 2500));
   </script>
-</body>
-</html>
